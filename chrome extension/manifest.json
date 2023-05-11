@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
+  "name": "Rizzerd of Ozz",
   "version": "1.0",
-  "description": "Add the reading time to Chrome Extension documentation articles",
+  "description": "adds a cartoon rizzics instructer to your chrome exsperience",
   "content_scripts": [
     {
       "matches": ["https://*/*"],
