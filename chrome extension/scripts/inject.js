@@ -1,0 +1,1 @@
+console.log("whats up this is rizzerd of ozz bitch");
