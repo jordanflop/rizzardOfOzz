@@ -1,7 +1,8 @@
-console.log("whats up this is rizzerd of ozz bitch");
+function pushImageToScreen() {
+    const img = document.createElement("img")
+    img.src = "https://i.postimg.cc/tRW33Hrd/wizard4.jpg"
+    img.id = "rizzard"
+    document.body.appendChild(img)
+}
 
-const img = document.createElement("img")
-
-img.src = "https://i.postimg.cc/tRW33Hrd/wizard4.jpg"
-
-document.body.appendChild(img)
+ 
