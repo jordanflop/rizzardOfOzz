@@ -30,7 +30,7 @@ function pushImageToScreen(position) {
 
 
 function removeImg() {
-    setTimeout(function() {img.style.visibility = "hidden";}, 5000)
+    setTimeout(function() {img.style.visibility = "hidden";}, 5000);
 }
 
 
