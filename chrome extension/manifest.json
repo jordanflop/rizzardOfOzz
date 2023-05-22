@@ -1,12 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Rizzerd of Ozz",
+  "name": "Rizzard of Ozz",
   "version": "1.0",
-  "description": "adds a cartoon rizzics instructer to your chrome exsperience",
+  "action": {
+    "default_icon": "images/icon.jpg"
+  }
+  ,"description": "adds a cartoon rizzics instructer to your chrome exsperience",
   "content_scripts": [
     {
       "matches": ["https://*/*"],
       "js": ["scripts/inject.js"]
     }
     ]
+
 }
