@@ -35,13 +35,15 @@ function removeImg() {
 
 
 function main() {
-    setTimeout(pushImageToScreen, Math.floor(Math.random() * 50000), getRandomPosition());
+    setTimeout(pushImageToScreen, Math.floor(Math.random() * 5000), getRandomPosition());
 }
 
 img.addEventListener("click", rizzTip);
 
 function rizzTip() {
-    alert("this is a rizz tip");
+    const rizz = ["catcall her", "show her your pokemon card collection", "send her sigma tiktoks so she knows that your a sigma", "legally stalk their socials","give her random things from around your house as gifts"];
+    alert(rizz[Math.floor(Math.random() * rizz.length)]);
+    
 }
 
 main();
