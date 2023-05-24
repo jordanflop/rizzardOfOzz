@@ -35,7 +35,7 @@ function removeImg() {
 
 
 function main() {
-    setTimeout(pushImageToScreen, Math.floor(Math.random() * 5000), getRandomPosition());
+    setTimeout(pushImageToScreen, Math.floor(Math.random() * 50000), getRandomPosition());
 }
 
 img.addEventListener("click", rizzTip);
