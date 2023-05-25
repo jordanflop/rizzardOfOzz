@@ -2,9 +2,21 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-hashes' http://localhost:* http://127.0.0.1:*;">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Add CSS transition for the image */
+      #slider {
+        transition: opacity 0.5s ease-in-out;
+      }
+    </style>
   </head>
   <body>
-    <img src="icons/onslider.png" id="img" alt="hi">
+    <img src="icons/onslider.png" id="slider" alt="On/Off Slider">
     <p id="p">ON</p>
     <script src="popup.js"></script>
   </body>
