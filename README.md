@@ -1,4 +1,4 @@
-# rizzerdOfOzz
+# rizzardOfOzz
 rizzard of ozz exstension for chrome
 
 so basically this is just the source code for a meme chrome exstension that makes a goofy looking image of a wizard randomly appear an dissapear on your screen. 
